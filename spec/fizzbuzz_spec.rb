@@ -22,7 +22,7 @@ describe Solver do
       expect(result).to eq('19')
     end
     it "When N is not divisible by 3 or 5, return N as a string" do
-      result = @my_solver.fizzbuzz(-9)
+      result = @my_solver.fizzbuzz(-7)
       expect(result).to eq('fizzbuzz')
     end
     it "When N is not divisible by 3 or 5, return N as a string" do
