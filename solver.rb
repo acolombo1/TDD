@@ -8,4 +8,14 @@ class Solver
     end
     factorial
   end
+
+  def reverse(word)
+    solution = []
+    rev = word.split('')
+    rev.each do |char|
+      solution.prepend(char)
+    end
+    return solution.join
+  end
+
 end
