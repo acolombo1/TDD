@@ -17,5 +17,13 @@ class Solver
     end
     return solution.join
   end
+  def fizzbuzz(n)
+    solution = []
+    rev = word.split('')
+    rev.reverse_each do |char|
+      solution.push(char)
+    end
+    return solution.join
+  end
 
 end
