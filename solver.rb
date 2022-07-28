@@ -12,8 +12,8 @@ class Solver
   def reverse(word)
     solution = []
     rev = word.split('')
-    rev.each do |char|
-      solution.prepend(char)
+    rev.reverse_each do |char|
+      solution.push(char)
     end
     return solution.join
   end
