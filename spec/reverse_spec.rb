@@ -1,4 +1,4 @@
-require_relative '../solver.rb'
+require_relative '../solver'
 
 describe Solver do
   context 'test reverse method from Solver' do
@@ -31,6 +31,5 @@ describe Solver do
       result = solver.reverse('¯\\(ツ)/¯ /n')
       expect(result).to eq('n/ ¯/)ツ(\\¯')
     end
-
   end
 end
