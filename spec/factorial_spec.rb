@@ -1,3 +1,5 @@
+require '../solver.rb'
+
 describe Solver do
   context "factorial method test" do
     it "factorial of 0 is 1" do
