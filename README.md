@@ -1,6 +1,6 @@
 # Test Driven Development
 
-In this project, we resolve algorithm challenges by writing the tests first, and then write teh code.
+In this project, we resolve algorithm challenges by writing the tests first, and then write the code.
 
 - Factorial.
 - Reverse.
@@ -20,11 +20,11 @@ In this project, we resolve algorithm challenges by writing the tests first, and
 
 ### Run
 
-- To run the App, you may use the IRB, loading the class
+- To use the methods, you may use the IRB, loading the class
 - `load 'solver.rb'`
 
 - To run test files type the following in the terminal
-- `ruby spec`
+- `rspec spec`
 
 ## Authors
 
